@@ -263,11 +263,11 @@ do
 					cp /etc/opkg.d/opkg-fast.conf /etc/opkg.d/opkg-fast.conf.firesun.bak
 					echo '更改源为openwrt源'
 					sed -i '/^src\/gz barrier_breaker/d' /etc/opkg.conf
-					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/oldpackages/' /etc/opkg.conf
+					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/packages/' /etc/opkg.conf
 					sed -i '/^src\/gz barrier_breaker/d' /etc/opkg.d/opkg-secure.conf
-					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/oldpackages/' /etc/opkg.d/opkg-secure.conf
+					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/packages/' /etc/opkg.d/opkg-secure.conf
 					sed -i '/^src\/gz barrier_breaker/d' /etc/opkg.d/opkg-fast.conf
-					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/oldpackages/' /etc/opkg.d/opkg-fast.conf
+					sed -i '1isrc/gz barrier_breaker http://downloads.openwrt.org.cn/PandoraBox/ralink/packages/packages/' /etc/opkg.d/opkg-fast.conf
 					
 					echo '更新源'
 					opkg update
