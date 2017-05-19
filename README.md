@@ -8,7 +8,7 @@
 * 感谢前人的努力，包括freedom、三流火、inter、hackpascal等大神，本工具箱的编写也吸取了前人许多宝贵的经验，再次对他们的努力表示感谢
 
 #工具箱使用方法  
-`cd /tmp; rm -f hiwifi.sh;curl -o hiwifi.sh -k -s https://raw.githubusercontent.com/firesunCN/HiWiFi_Smart_Toolbox/master/hiwifi.sh;sh hiwifi.sh;rm -f hiwifi.sh`
+`cd /tmp; rm -f hiwifi.sh;curl -o hiwifi.sh -k -s https://raw.githubusercontent.com/kutianwulei/HiWiFi_Smart_Toolbox/master/hiwifi.sh;sh hiwifi.sh;rm -f hiwifi.sh`
 * 通过ssh连接路由器，复制上面的命令，粘贴回车即可
 
 ![](./guide/toolbox.png)
